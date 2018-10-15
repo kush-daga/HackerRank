@@ -5,6 +5,7 @@ using namespace std;
 vector<string> split_string(string);
 
 // Complete the breakingRecords function below.
+// Hihi haasdele
 vector<int> breakingRecords(vector<int> scores , int n) {
     int min = scores[0]; int max = scores[0];vector<int> result(2);
     for(int i = 1; i < n ; i++){
