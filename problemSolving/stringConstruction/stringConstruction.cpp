@@ -12,6 +12,7 @@ int stringConstruction(string s) {
 int main()
 {
     //ofstream fout(getenv("OUTPUT_PATH"));
+        //??
 
     int q;
     cin >> q;n
