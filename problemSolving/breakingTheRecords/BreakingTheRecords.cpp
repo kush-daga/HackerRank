@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+//dont like this header file
 
 using namespace std;
 
@@ -25,6 +26,7 @@ vector<string> split_string(string input_string) {
     string::iterator new_end = unique(input_string.begin(), input_string.end(), [] (const char &x, const char &y) {
         return x == y and x == ' ';
     });
+    //I dont like strings
 
     input_string.erase(new_end, input_string.end());
 
